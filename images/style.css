@@ -1,0 +1,30 @@
+/* Images */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: grey;
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+
+	margin: 0.25em;
+}
+img {
+	max-width: 100%
+}
+
+.grid {
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	width: 14
+	padding: .34em; 
+	grid-row: 3;
+}
